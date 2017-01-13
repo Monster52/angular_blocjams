@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="blocjams">
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Bloc Base Project</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <title>Bloc Jams Angular</title>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700,300">
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="/styles/nomalize.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/landing.css">
+    <link rel="stylesheet" href="/styles/collection.css">
+    <link rel="stylesheet" href="/styles/album.css">
+    <link rel="stylesheet" href="/styles/play_bar.css">
 </head>
 <body>
+
+    <ui-view></ui-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <script src="/scripts/app.js"></script>
 </body>
 </html>
